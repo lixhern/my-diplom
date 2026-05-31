@@ -285,4 +285,4 @@ def train_model(dataset_dir, epochs=30, batch_size=8, lr=1e-3, device="cuda"):
         )
 
 if __name__ == "__main__":
-    train_model("OutputNew")
+    train_model("dataset")

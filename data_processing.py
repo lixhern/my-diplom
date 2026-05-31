@@ -2,10 +2,10 @@ import os
 import json
 import shutil
 
-root_images_folder = "Hemangiomas\Hemangiomas"
+root_images_folder = "rootData\Hemangiomas"
 root_masks_folder = "project-11-at-2024-09-13-14-37-2642aa96"
 annotations_json = "project-11-at-2024-09-13-14-37-2642aa96.json"
-output_folder = "OutputNew"
+output_folder = "dataset"
 
 os.makedirs(output_folder, exist_ok=True)
 

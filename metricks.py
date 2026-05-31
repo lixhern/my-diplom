@@ -49,7 +49,7 @@ def evaluate_model(model, loader, device):
     return metrics
 
 if __name__ == '__main__':
-    dataset_dir = 'OutputNew'
+    dataset_dir = 'dataset'
     model_path = 'unet_best.pth'
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 

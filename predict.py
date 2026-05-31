@@ -105,5 +105,5 @@ def test_model_on_images(model_path, dataset_dir, device='cuda', num_images=3):
 
 if __name__ == '__main__':
     model_path = 'unet_best.pth'
-    dataset_dir = 'OutputNew'
+    dataset_dir = 'dataset'
     test_model_on_images(model_path, dataset_dir)
