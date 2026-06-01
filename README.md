@@ -12,6 +12,8 @@ git clone https://github.com/lixhern/my-diplom.git
 3. Созданйте виртуальное окружение: python -m venv .venv
 4. Установите зависимости:
  pip install -r requirements.txt
+5. Установите CUDA-весрию PyTorch:
+ pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 5. Запустите проект:
    - двойным кликом по start.bat
    - либо в терминале ./start.bat
